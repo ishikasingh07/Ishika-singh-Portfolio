@@ -1,0 +1,128 @@
+#Ishika Portfolio
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ishika Singh | Software Tester</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Roboto', sans-serif; line-height: 1.6; background: #f8f9fa; color: #333; }
+    nav { background: #222; color: #fff; padding: 1rem; position: fixed; top: 0; width: 100%; z-index: 10; }
+    nav ul { list-style: none; display: flex; justify-content: center; gap: 2rem; }
+    nav ul li a { color: #fff; text-decoration: none; font-weight: 500; }
+    section { padding: 80px 20px 60px; max-width: 900px; margin: auto; }
+    h1, h2 { margin-bottom: 1rem; color: #222; }
+    .skills ul, .projects ul, .experience ul { list-style: disc; margin-left: 1.5rem; }
+    footer { text-align: center; padding: 2rem; background: #222; color: #fff; }
+    .button { display: inline-block; margin-top: 1rem; padding: 10px 20px; background: #007BFF; color: #fff; text-decoration: none; border-radius: 5px; }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="home" data-aos="fade-up">
+    <h1>Hello, I'm Ishika Singh</h1>
+    <p>Aspiring Software Tester! I’m eager to take on new challenges and open to opportunities that will allow me to grow, develop new skills, and contribute meaningfully.</p>
+  </section>
+
+  <section id="about" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>I'm a Biomedical Engineering graduate with internship experience in testing medical applications. I have knowledge of SDLC, STLC, and manual testing, and I’m currently learning Selenium with Python. I’m open to opportunities where I can learn, grow, and apply my skills in a meaningful way.
+
+</p>
+  </section>
+
+  <section id="skills" data-aos="fade-up">
+    <h2>Skills</h2>
+    <ul>
+      <li>Core Python</li>
+      <li>Basic SQL</li>
+      <li>Selenium</li>
+      <li>SDLC & STLC</li>
+    </ul>
+  </section>
+
+  <section id="projects" data-aos="fade-up">
+  <h2>Projects</h2>
+  <ul>
+    <li><strong>Automated Login Testing with DDT Framework</strong><br />
+      Site Used: automationpractice.com
+      <ul>
+        <li>Automated login tests using multiple credentials from Excel.</li>
+        <li>Created utility functions to read/write data and apply color-coded pass/fail results.</li>
+        <li>Validated login attempts and recorded outcomes back to Excel.</li>
+      </ul>
+    </li>
+    <br>
+    <li><strong>E-commerce Website Testing (Automation – Dummy Project)</strong><br />
+      Site Used: automationpractice.com
+      <ul>
+        <li>Validated login, product search, add to cart, and checkout functionalities.</li>
+      </ul>
+    </li>
+    <br>
+    <li><strong>Login Form Automation</strong><br />
+      Site Used: automationpractice.com
+      <ul>
+        <li>Automated a basic login page using Selenium.</li>
+        <li>Implemented XPath locators and handled waits efficiently.</li>
+      </ul>
+    </li>
+    <br>
+    <li><strong>Heart Disease Prediction using Machine Learning</strong><br />
+      <ul>
+        <li>Developed a GUI-based application using Python’s Tkinter module.</li>
+        <li>Implemented ML algorithms to predict heart disease likelihood based on user input.</li>
+      </ul>
+    </li>
+  </ul>
+</section>
+
+  <section id="experience" data-aos="fade-up">
+    <h2>Experience</h2>
+    <ul>
+      <li><strong>Software Test Engineer Trainee,EPMD Pvt (Apr 2024 – Nov 2024)</strong><br />
+        - Manual testing of desktop applications<br />
+        - Identified critical issues early in testing<br />
+        - Wrote and executed test cases; reported bugs<br />
+        - Worked across SDLC/STLC phases</li>
+      <br>
+      <li><strong>Biomedical Engineer Trainee, – MGM Hospital (Jun 2021 – Sep 2021)</strong><br />
+      -Worked with the biomedical engineering team to ensure the smooth functioning of hospital machines and equipment<br />
+      -Attended breakdown calls and maintained detailed records<br />
+      -Performed preventive maintenance on equipment at regular intervals<br />
+      -Calibrated and tested critical care instruments like ventilators, syringe pumps, defibrillators, and patient monitors</li>
+    </ul>
+  </section>
+
+  <section id="contact" data-aos="fade-up">
+    <h2>Contact</h2>
+    <p>Email: ishikausingh@gmail.com</p>
+    <p>LinkedIn: https://www.linkedin.com/in/ishika-singh15/</p>
+    <p>GitHub: ishikasingh07</p>
+    <a href="resume.pdf" class="button" download>Download Resume</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Ishika Singh. All rights reserved.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000, once: true });
+  </script>
+</body>
+</html>
